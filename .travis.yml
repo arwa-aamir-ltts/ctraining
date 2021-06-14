@@ -1,0 +1,14 @@
+language: c
+
+
+compiler: 
+-	gcc
+before insall:
+-	sudo apt-get update
+-	sudo apt-get -y install libcunitl libcunitl-doc libcunitl-dev
+install:
+-	echo “Reached Install Section”
+scipt: 
+-	echo “Reached Script Section”
+-	gcc      hello_world.c -o output
+-	./output
