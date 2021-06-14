@@ -2,12 +2,12 @@ language: c
 
 
 compiler: 
--	gcc
+- gcc
 before insall:
--	sudo apt-get update
+- sudo apt-get update
 install:
--	echo “Reached Install Section”
+- echo “Reached Install Section”
 scipt: 
--	echo “Reached Script Section”
--	gcc      hello_world.c -o output
--	./output
+- echo “Reached Script Section”
+- gcc      hello_world.c -o output
+- ./output
