@@ -7,5 +7,5 @@ install:
 - echo "Reached Install Section"
 script:
 - echo "Reached Install Section"
-- gcc hello_world.c -0 output
+- gcc hello_world.c -o output
 - ./output
